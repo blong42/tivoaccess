@@ -8,7 +8,7 @@ import os
 import urllib2
 import Cookie
 import BeautifulSoup
-from cs_base import html_unescape
+import html_unescape
 
 
 try:
