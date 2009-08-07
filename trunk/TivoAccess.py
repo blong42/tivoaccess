@@ -157,7 +157,7 @@ class TivoFetcher:
 # exception instead?
 def FindTivos():
   if not has_avahi: return []
-  return avahi_find_hosts.ReturnHosts('tivo_videos')
+  return avahi_find_hosts.ReturnHosts('tivo-videos')
 
 
 # Load the Tivo Media Access Key from the ~/.tivodecode_mak file
